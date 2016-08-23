@@ -1,10 +1,10 @@
 import os, shutil
 
-DSTDIR = "C:\Users\Seongjun\Desktop/niko"
+DSTDIR = "./"
 
 def makefolder:
-	if not os.path.isdir("C:\Users\Seongjun\Desktop/niko"):
-		os.mkdir("C:\Users\Seongjun\Desktop/niko")
+	if not os.path.isdir("./niko"):
+		os.mkdir("./niko")
 	else:
 		print "Already existed!!!"
 		pass
